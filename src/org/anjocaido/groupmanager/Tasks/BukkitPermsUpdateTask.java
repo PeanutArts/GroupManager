@@ -22,7 +22,7 @@ public class BukkitPermsUpdateTask implements Runnable {
 		GroupManager.BukkitPermissions.collectPermissions();
 		GroupManager.BukkitPermissions.updateAllPlayers();
 
-		GroupManager.logger.info("Bukkit Permissions Updated!");
+		GroupManager.logger.info("Bukkit Perms Updated.");
 
 	}
 
